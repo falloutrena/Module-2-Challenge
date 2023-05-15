@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Regan Wilson. I am a student of the UCLA coding bootcamp to become a full stack web developer. This is my portfolio, which I will use to document the things I've created with the skills I've learned so far. My assignments and projects will be linked on this site.</p>
+    </section>
+    <section id="portfolio">
+      <h2>My Work</h2>
+      <ul>
+        <li>
+          <a href="https://michaelx626.github.io/Film-Filter/index.html">
+            <img src="./assets/images/FilmFilter.jpg" alt="Project 1 - Film Filter" class="img">
+            <h3>Film Filter</h3>
+          </a>
+        </li>
+        <li>
+          <a href="https://uclaspace.herokuapp.com/">
+            <img src="./assets/images/UCLASpace.jpg" alt="Project 2 - UCLA Space" class="img">
+            <h3>UCLA Space</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="portfolio-image-3.jpg" alt="Placeholder Image 3" class="img">
+            <h3>Project 3 - Coming soon</h3>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Regan Wilson, 2022</p>
+  </footer>
+</body>
+</html>
